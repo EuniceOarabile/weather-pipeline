@@ -4,6 +4,14 @@ from datetime import datetime
 import logging
 import os
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+CITY = os.getenv("CITY")
+
 #Setup logging
 os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
@@ -12,7 +20,7 @@ logging.basicConfig(
    format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-API_KEY = "3e636aac71cfc416bf2964dbe73d85e4"
+API_KEY = os.getenv("API_KEY")
 CITY = "Gaborone"
 URL = f"https://api.openweathermap.org/data/2.5/weather?q=Gaborone&appid=3e636aac71cfc416bf2964dbe73d85e4&units=metric"
 
