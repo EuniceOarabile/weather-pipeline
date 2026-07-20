@@ -1,0 +1,10 @@
+2026-07-20 01:04:35,132 - INFO - === Pipeline started ===
+2026-07-20 01:04:37,579 - INFO - API call successful
+2026-07-20 01:04:37,580 - INFO - Extracted: Gaborone, 15.19°C, 21%
+2026-07-20 01:04:37,649 - INFO - Data inserted into database successfully
+2026-07-20 01:04:37,649 - INFO - Pipeline completed successfully
+2026-07-20 01:37:27,648 - INFO - === Pipeline started ===
+2026-07-20 01:37:29,675 - INFO - API call successful
+2026-07-20 01:37:29,676 - INFO - Extracted: Gaborone, 14.55°C, 22%
+2026-07-20 01:37:29,736 - INFO - Data inserted into database successfully
+2026-07-20 01:37:29,736 - INFO - Pipeline completed successfully
